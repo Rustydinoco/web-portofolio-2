@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+    background-color: #1d1633;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.NAVBAR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #2b2638;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic
+}
+
+.logo a span {
+    color: aqua;
+}
+
+.NAVBAR .nav a {
+    color: #fff;
+    display: inline;
+    margin: 0 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.NAVBAR .nav a:hover {
+    color: aqua;
+
+}
+
+.home {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+
+}
+
+.home-section {
+    width: 400px;
+    left: 40px;
+}
+
+.home-section h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-section h3 {
+    margin: 15px 0 6px 0;
+    color: aqua;
+}
+
+.home-section p {
+    margin: 20px 0 40px;
+}
+
+.home-section .btn-box {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    height: 50px;
+    background: transparent;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 80%;
+    background: aqua;
+    border: 1px solid lightskyblue;
+    border-radius: 11px;
+    letter-spacing: 1px;
+    color: #1d1633;
+    text-decoration: none;
+    font-weight: 750;
+    transition: 0.6s;
+}
+
+.btn-box :nth-child(2) {
+    background: transparent;
+    color: aqua;
+}
+
+.btn-box :nth-child(2):hover {
+    background: aqua;
+    transition-duration: 0.6s;
+    color: #1d1633;
+}
+
+.btn-box :nth-child(1):hover {
+    background: #1d1633;
+    transition-duration: 0.6s;
+    color: aqua;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 110px;
+    width: 300px;
+    background-color: transparent;
+}
+
+.sosmed a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: solid aqua;
+    border-radius: 50%;
+    color: aqua;
+    text-decoration: none;
+}
