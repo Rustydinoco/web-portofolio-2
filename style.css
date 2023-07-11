@@ -90,15 +90,10 @@ body {
     bottom: 100px;
     right :80px;
   
-    
 }
 
-.image :hover{
-    transition-duration: 0.6s;
-    box-shadow: #fff;
 
-}
-   
+
 
 .btn-box a {
     display: inline-flex;
